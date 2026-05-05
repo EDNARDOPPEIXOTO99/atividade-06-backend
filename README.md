@@ -72,8 +72,8 @@ API REST desenvolvida com **Express + TypeScript** com foco em:
 ### 📄 Produto por ID
 ![GET product id](docs/assets/get-product-id.png)
 
-### ❌ Erro ID negativo (400)
-![Erro 400](docs/assets/get-product-error.png)
+### ❌ Erro: Corpo vazio (400)
+![Erro POST](docs/assets/post-order-error.png)
 
 ---
 
@@ -99,8 +99,15 @@ API REST desenvolvida com **Express + TypeScript** com foco em:
   "productIds": [1, 2]
 }
 
-🚀 Como executar o projeto
 
+---
+
+## 🚀 Como executar
+
+```md
+## 🚀 Como executar o projeto
+
+```bash
 # instalar dependências
 npm install
 
@@ -110,19 +117,26 @@ npm run dev
 📍 Servidor disponível em:
 http://localhost:3333
 
-🎯 Conceitos Aplicados
-✔ Semântica REST (GET, POST, PATCH, DELETE)
-✔ Query Params (req.query)
-✔ Route Params (req.params)
-✔ Body JSON (req.body)
-✔ Status Codes HTTP
-✔ Middlewares personalizados
-✔ Organização com express.Router()
 
-👨‍💻 Autor
+---
+
+## 🎯 Conceitos
+
+```md
+## 🎯 Conceitos Aplicados
+
+- ✔ Semântica REST (GET, POST, PATCH, DELETE)
+- ✔ Query Params (`req.query`)
+- ✔ Route Params (`req.params`)
+- ✔ Body JSON (`req.body`)
+- ✔ Status Codes HTTP
+- ✔ Middlewares personalizados
+- ✔ Organização com `express.Router()`
+
+## 👨‍💻 Autor
 
 Ednardo Pinheiro Peixoto
 
-⭐ Observação
+## ⭐ Observação
 
 Este projeto foi desenvolvido como atividade prática para consolidar conceitos de backend com Node.js e Express.
