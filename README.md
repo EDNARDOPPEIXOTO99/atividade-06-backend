@@ -67,13 +67,7 @@ API REST desenvolvida com **Express + TypeScript** com foco em:
 ![GET products](docs/assets/get-products.png)
 
 ### 🔍 Filtro por categoria
-![GET products filter](docs/assets/get-products-filter.png)
-
-### 📄 Produto por ID
-![GET product id](docs/assets/get-product-id.png)
-
-### ❌ Erro: Corpo vazio (400)
-![Erro POST](docs/assets/post-order-error.png)
+![GET products filter](docs/assets/get-products-category=eletronicos.png)
 
 ---
 
@@ -84,10 +78,13 @@ API REST desenvolvida com **Express + TypeScript** com foco em:
 ![POST error](docs/assets/post-order-error.png)
 
 ### 🔄 Atualizar pedido (PATCH)
-![PATCH order](docs/assets/patch-order.png)
+![PATCH order](docs/assets/patch-order-1.png)
+
+### ❌ Erro body vazio
+![POST error](docs/assets/post-order-vazio.png)
 
 ### 🗑️ Deletar pedido (DELETE)
-![DELETE order](docs/assets/delete-order.png)
+![DELETE order](docs/assets/delete-order-1.png)
 
 ---
 
@@ -102,9 +99,6 @@ API REST desenvolvida com **Express + TypeScript** com foco em:
 
 ---
 
-## 🚀 Como executar
-
-```md
 ## 🚀 Como executar o projeto
 
 ```bash
@@ -120,23 +114,19 @@ http://localhost:3333
 
 ---
 
-## 🎯 Conceitos
+🎯 Conceitos Aplicados
+✔ Semântica REST (GET, POST, PATCH, DELETE)
+✔ Query Params (req.query)
+✔ Route Params (req.params)
+✔ Body JSON (req.body)
+✔ Status Codes HTTP
+✔ Middlewares personalizados
+✔ Organização com express.Router()
 
-```md
-## 🎯 Conceitos Aplicados
-
-- ✔ Semântica REST (GET, POST, PATCH, DELETE)
-- ✔ Query Params (`req.query`)
-- ✔ Route Params (`req.params`)
-- ✔ Body JSON (`req.body`)
-- ✔ Status Codes HTTP
-- ✔ Middlewares personalizados
-- ✔ Organização com `express.Router()`
-
-## 👨‍💻 Autor
+👨‍💻 Autor
 
 Ednardo Pinheiro Peixoto
 
-## ⭐ Observação
+⭐ Observação
 
 Este projeto foi desenvolvido como atividade prática para consolidar conceitos de backend com Node.js e Express.
